@@ -1,0 +1,21 @@
+<suite name="Multi Browser Testing" parallel="tests"
+thread-count="1">
+
+<test name="edge">
+	<parameter name="browser" value="edge"/>
+	
+	<class name="tests.MultiBrowserTesting"/>
+	
+	</test>
+	
+	<test name="firefox">
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			
+			<class name="tests.MultiBrowserTesting"/>
+		</classes>	
+	
+</test>
+	
+</suite>
+

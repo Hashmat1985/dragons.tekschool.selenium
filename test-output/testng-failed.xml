@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Regression Test]">
+  <test thread-count="1" parallel="tests" name="edge(failed)">
+    <classes>
+      <class name="tests.RegressionTest">
+        <methods>
+          <include name="test1"/>
+          <include name="serupBrowser"/>
+        </methods>
+      </class> <!-- tests.RegressionTest -->
+    </classes>
+  </test> <!-- edge(failed) -->
+</suite> <!-- Failed suite [Regression Test] -->

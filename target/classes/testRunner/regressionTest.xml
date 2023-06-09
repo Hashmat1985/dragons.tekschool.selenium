@@ -1,0 +1,10 @@
+<suite name="Regression Test" parallel="tests" thread-count="1">
+	
+	<test name="edge">
+	<classes>
+		<class name="tests.RegressionTest"></class>
+	</classes>
+	</test>
+	
+</suite>
+	
